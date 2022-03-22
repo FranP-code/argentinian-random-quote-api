@@ -1,0 +1,21 @@
+{
+	"name": "argentinian-random-quote-api",
+	"version": "1.0.0",
+	"description": "Get your random argentinian quote in one moment.",
+	"main": "src/app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"argentina",
+		"quotes",
+		"api",
+		"generator"
+	],
+	"author": "FranP-Code",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.3",
+		"nodemon": "^2.0.15"
+	}
+}
