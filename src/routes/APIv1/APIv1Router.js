@@ -9,16 +9,18 @@ async function getAllQuotes() {
 
 	//Try get quotes from original github repository
 	try {
-		const response = await axios.get(
+		let response = await axios.get(
 			"https://raw.githubusercontent.com/FranP-code/argentinian-random-quote/master/quotes.json"
 		);
+
 		returnData.status = response.status;
 
 		if (response.status !== 200) {
 			returnData.data = "Request failed";
 		}
 
-		returnData.data = response.data.data;
+		console.log(response.data);
+		returnData.data = response.data;
 	} catch (error) {
 		returnData.status = 400;
 		returnData.data = error.message;
