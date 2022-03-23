@@ -4,7 +4,8 @@
 	"description": "Get your random argentinian quote in one moment.",
 	"main": "src/app.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node src/app.js",
+		"dev": "nodemon src/app.js"
 	},
 	"keywords": [
 		"argentina",
@@ -15,6 +16,8 @@
 	"author": "FranP-Code",
 	"license": "ISC",
 	"dependencies": {
+		"argentinian-random-quote": "^1.4.0",
+		"axios": "^0.26.1",
 		"express": "^4.17.3",
 		"nodemon": "^2.0.15"
 	}
