@@ -4,9 +4,9 @@ With this API you can generate random famous quotes from the popular culture of 
 
 ## Endpoints
 
-- Get all quotes: **GET** to https://argentinian-random-quote-api.herokuapp.com/api/v1/all-quotes
+- Get all quotes: **GET** to https://argentinian-random-quote-api.up.railway.app/api/v1/all-quotes
 
-- Get random quote: **GET** to https://argentinian-random-quote-api.herokuapp.com/api/v1/random-quote
+- Get random quote: **GET** to https://argentinian-random-quote-api.up.railway.app/api/v1/random-quote
 
     Obligatory, this request have to include this two headers:
     ```js
